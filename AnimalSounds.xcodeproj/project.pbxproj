@@ -13,6 +13,10 @@
 		894F11902486BFD800664B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894F118E2486BFD800664B6B /* Main.storyboard */; };
 		894F11922486BFDB00664B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894F11912486BFDB00664B6B /* Assets.xcassets */; };
 		894F11952486BFDB00664B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894F11932486BFDB00664B6B /* LaunchScreen.storyboard */; };
+		894F119D2486C8FE00664B6B /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F119C2486C8FE00664B6B /* SimpleSound.swift */; };
+		894F11A12486CDDC00664B6B /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 894F119E2486CDDC00664B6B /* cow.mp3 */; };
+		894F11A32486CDDC00664B6B /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 894F11A02486CDDC00664B6B /* cat.mp3 */; };
+		894F11A52486D23700664B6B /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 894F11A42486D23600664B6B /* dog.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		894F11912486BFDB00664B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894F11942486BFDB00664B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		894F11962486BFDB00664B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894F119C2486C8FE00664B6B /* SimpleSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		894F119E2486CDDC00664B6B /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
+		894F11A02486CDDC00664B6B /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		894F11A42486D23600664B6B /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dog.mp3; path = "../../../../Desktop/звуки животных/dog.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 		894F11872486BFD800664B6B /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
+				894F11A42486D23600664B6B /* dog.mp3 */,
+				894F11A02486CDDC00664B6B /* cat.mp3 */,
+				894F119E2486CDDC00664B6B /* cow.mp3 */,
 				894F11882486BFD800664B6B /* AppDelegate.swift */,
+				894F119C2486C8FE00664B6B /* SimpleSound.swift */,
 				894F118A2486BFD800664B6B /* SceneDelegate.swift */,
 				894F118C2486BFD800664B6B /* ViewController.swift */,
 				894F118E2486BFD800664B6B /* Main.storyboard */,
@@ -127,6 +139,9 @@
 			files = (
 				894F11952486BFDB00664B6B /* LaunchScreen.storyboard in Resources */,
 				894F11922486BFDB00664B6B /* Assets.xcassets in Resources */,
+				894F11A32486CDDC00664B6B /* cat.mp3 in Resources */,
+				894F11A52486D23700664B6B /* dog.mp3 in Resources */,
+				894F11A12486CDDC00664B6B /* cow.mp3 in Resources */,
 				894F11902486BFD800664B6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				894F118D2486BFD800664B6B /* ViewController.swift in Sources */,
 				894F11892486BFD800664B6B /* AppDelegate.swift in Sources */,
 				894F118B2486BFD800664B6B /* SceneDelegate.swift in Sources */,
+				894F119D2486C8FE00664B6B /* SimpleSound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
